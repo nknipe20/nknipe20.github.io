@@ -1,9 +1,17 @@
-h1
-{
-    background-color: lightpink;
+body {
+    background-color: rgb(234, 204, 223);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-h3
+h1 {
+    color: rgb(68, 68, 68);
+}
+
+a:link{
+    color:rgba(217, 34, 171, 0.834);
+}
+
+p
 {
     color: purple;
     font-family: 'Times New Roman', Times, serif;
