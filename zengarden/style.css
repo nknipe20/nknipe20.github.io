@@ -1,0 +1,165 @@
+/* basic elements */
+
+body
+{
+    background-color: rgb(235, 209, 229);
+}
+
+h1
+{
+    font-family: cursive;
+    font-size: xxx-large;
+    font-style: bold;
+    text-shadow: rgb(27, 108, 28) 3px 0 10px;
+	text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    text-align: left;
+	padding-bottom: 10%
+}
+
+h2
+{
+    font-family: cursive;
+    color: rgb(165, 110, 48);
+    text-align: center;
+}
+
+h3
+{
+    font-family: cursive;
+    color: rgb(165, 110, 48);
+
+}
+
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.page-wrapper 
+{ 
+	margin: 0; 
+	position: relative;
+}
+
+.explanation
+{
+	padding-right: 470px;
+}
+
+.participation
+{
+	padding-right: 470px;
+}
+
+.benefits
+{
+	padding-right: 470px;
+}
+
+.requirements
+{
+	padding-right: 470px;
+}
+
+a:link { 
+	font-weight: bold; 
+	color: #bf5aae;
+	}
+a:visited { 
+	font-weight: bold; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active
+{ 
+	color: #bf5aae;
+} 
+    
+footer { 
+	text-align: left; 
+	background-color: #bf5aae;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	footer a:link, footer a:visited 
+	{ 
+		color:#D4CDDC;
+		margin-right: 20px; 
+		margin-left: 20px;
+		text-decoration: none;
+	}
+	footer a:hover
+	{ 
+		color: rgb(199, 218, 198);
+		margin-right: 20px; 
+		margin-left: 20px;
+		text-decoration: none;
+	}
+	
+
+/* specific elements */
+header h1 {
+	padding-top: 20%;
+	background-image: url(https://selenichast.com/cdn/shop/collections/Brown_Sakura_Photo_Spring_Promotional_Twitter_Post.png?v=1656043627);
+	margin-top: 10px;
+	display: block;
+	width: 100%;
+	height: 43px;
+	}
+
+.summary p
+{
+    text-align: center;
+    font-size: larger;
+    font-family: cursive;
+    color:rgb(37, 108, 23);
+}
+
+.summary
+{
+    background-color: antiquewhite;
+}
+
+/* took some from the example stylesheet*/
+
+.sidebar
+{
+    background-color: rgb(199, 218, 198);;
+    margin-left: 800px; 
+    padding-right: 50px;
+    padding-left: 50px;
+	position: absolute; 
+    top: 50%;
+	right: 0;
+}
+
+.sidebar h3
+{
+	color: #bf5aae;
+	font-size: x-large;
+}
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+	}
+.sidebar li {
+	list-style-type: none;
+    padding: 3%;
+	}
+.sidebar li a:link {
+	color: rgb(165, 110, 48);
+	}
+.sidebar .designer-name li a:visited 
+{ 
+	color: rgb(165, 110, 48);
+	}
+.sidebar li a:hover, a:focus, a:active { 
+	color: rgb(214, 165, 108);
+	}   
+
+.sidebar li {
+    color: rgb(165, 110, 48);
+}
+
