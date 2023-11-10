@@ -56,60 +56,36 @@ body {
     display: block;
     width: 200px;
     margin-left: 50%;
-    margin-top: 150px;
+    top: 450px;
     position: absolute;
 }
 
 #sun
 {
     display: none;
-    width: 400px;
-    top:5%;
+    width: 350px;
+    left: 20%;
+    top:25%;
     position: absolute;
+    transform: translate(-50%, -50%);
+    animation: rotateImage 4s linear infinite; 
 }
 
 #buttons
 {
     background-color: rgb(224, 180, 228);
     text-align: center;
-    padding: 3%;
+    padding: 1%;
     width: 100%;
     top: 0;
     position: fixed;
 }
 
-#congratsBox {
-    width: 200px;
-    height: 100px;
-    background-color: #4CAF50;
-    color: #fff;
-    text-align: center;
-    line-height: 100px;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: flashColor 2s infinite alternate, confetti 3s infinite;
-  }
-
-  @keyframes flashColor {
-      0% {
-        background-color: #4CAF50;
-      }
-      50% {
-        background-color: #45a049;
+  @keyframes rotateImage {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
       }
       100% {
-        background-color: #4CAF50;
+        transform: translate(-50%, -50%) rotate(360deg);
       }
-    }
-
-@keyframes confetti {
-    0% {
-        transform: translateX(0) translateY(0) rotate(0);
-    }
-    100% {
-        transform: translateX(200vw) translateY(100vh) rotate(720deg);
-    }
-      }   
+    } 
