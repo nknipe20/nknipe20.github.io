@@ -2,32 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>TV Show Suggestion</title>
+  <title>Flower Grow</title>
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <h2>Not sure what movie to watch?</h2>
-  <div class="button_centered">
-      <button class="take_quiz"> TAKE OUR QUIZ </button>
-  </div>
-  <h4 class="quiz-question-one">What genre do you want to watch?</h4>
-  <div questonOneButtons>
-    <button class="quiz1" onclick=RomCom()>RomCom</button>
-    <button class="quiz1" onclick=Drama()>Drama</button>
-    <button class="quiz1" onclick=Scary()>Scary</button>
-    <button class="quiz1" onclick=Comedy()>Comedy</button>
+
+  <div id="wateringCanContainer">
+    <img id="wateringCan" src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/78056/watering-can-clipart-xl.png" alt="watering can">
   </div>
 
-  <h4 class="quiz-question-two">What streaming service do you want to watch on?</h4>
-  <div questonTwoButtons>
-    <button class="quiz2" onclick=Netflix()>Netflix</button>
-    <button class="quiz2" onclick=PrimeVideo()>Prime Video</button>
-    <button class="quiz2" onclick=HBOMax()>HBOMax</button>
-    <button class="quiz2" onclick=DisneyPlus()>Disney+</button>
+  <img id="flowers" src="/javascriptproject/1.png" alt="flower">
+
+  <div id="sunContainer">
+    <img id="sun" src="https://i.pinimg.com/originals/a5/38/8c/a5388cf7c3411dfebf0e1530ea4f6445.png" alt = "sun">
   </div>
 
-  <button onclick=showResults()>Show My Results</button>
-  <p id="result"></p>
-  
+  <div id="buttons">
+  <button id="wateringCanButton" onclick="showWateringCan()">Water the Flower!</button>
+  <button id="sunButton" onclick="showSun()">Make it Sunny!</button>
+  </div>
 </body>
+<script src="script.js"></script>
 </html>
