@@ -9,8 +9,8 @@ function showWateringCan()
     var wateringButton = document.getElementById('wateringCanButton');
     wateringButton.style.display = "none";
 
-    var sunButtom = document.getElementById('sunButton');
-    wateringButton.style.display = "block";
+    var sunButton = document.getElementById('sunButton');
+    sunButton.style.display = "block";
 }
 
 function showSun() 
@@ -24,3 +24,7 @@ function showSun()
     var wateringButton = document.getElementById('SunButton');
     wateringButton.style.display = "none";
 }
+
+setTimeout(function() {
+    document.getElementById('congratsBox').style.display = 'none';
+  }, 5000);
